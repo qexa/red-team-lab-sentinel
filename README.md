@@ -1,5 +1,5 @@
 # red-team-lab
-[![CI](https://github.com/qexa/red-team-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/red-team-lab/actions/workflows/ci.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A safe, portfolio‑ready **Red Teaming Project** that demonstrates planning, execution, and detection engineering in a controlled lab. It ships a Typer-based CLI for benign simulations, ATT&CK mappings, detections (KQL + Sigma), docs (MkDocs), CI, and a devcontainer.
@@ -65,15 +65,15 @@ make docs      # mkdocs serve
 
 ## 🧭 Architecture
 ```mermaid
-%%{init: {'theme':'neutral'}}%%
 flowchart TD
   A[Operator] --> B[redlab CLI]
   B --> C[Recon Sim]
-  B --> D[Lateral Sim (benign)]
+  B --> D[Lateral Sim - benign]
   C --> E[Sample Logs]
   D --> E
-  E --> F[Detections (KQL/Sigma)]
-  F --> G[Docs & Reports]
+  E --> F[Detections - KQL & Sigma]
+  F --> G[Docs and Reports]
+
 ```
 
 ## 🗺️ ATT&CK Coverage (examples)
