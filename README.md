@@ -1,5 +1,5 @@
 # red-team-lab
-[![CI](https://github.com/your-org/red-team-lab/actions/workflows/ci.yml/badge.svg)](../../actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/qexa/red-team-lab/actions/workflows/ci.yml/badge.svg)](../../actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A safe, portfolio‑ready **Red Teaming Project** that demonstrates planning, execution, and detection engineering in a controlled lab. It ships a Typer-based CLI for benign simulations, ATT&CK mappings, detections (KQL + Sigma), docs (MkDocs), CI, and a devcontainer.
 
