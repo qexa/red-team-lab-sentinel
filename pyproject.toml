@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redteam-lab"
+version = "0.1.0"
+description = "A safe red teaming lab CLI and detections (portfolio-friendly)."
+authors = [{name="Alex Curtis", email="info@qexa.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["typer>=0.12.3", "pyyaml>=6.0.2"]
+scripts = { redlab = "redteam_lab.cli:run" }
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5.0", "pytest>=8.2.0", "mkdocs-material>=9.5.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-select = ["I"]
+

@@ -1,0 +1,12 @@
+site_name: Red Team Lab
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Lab Setup: lab-setup.md
+  - Detections: detections.md
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true

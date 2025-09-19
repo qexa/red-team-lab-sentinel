@@ -1,0 +1,8 @@
+%% Mermaid architecture diagram (referenced from README) 
+flowchart LR
+  operator --> cli
+  cli --> simRecon
+  cli --> simLateral
+  simRecon --> logs
+  simLateral --> logs
+  logs --> detections
