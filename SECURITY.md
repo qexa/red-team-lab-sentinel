@@ -4,7 +4,7 @@
 Main branch.
 
 ## Reporting a Vulnerability
-Open a **Security Advisory** on GitHub or email info@qexa.com. We aim to respond within 72 hours.
+Open a **Security Advisory** on GitHub. We aim to respond within 72 hours.
 
 ## Triage
 Reports are scored (CVSS-like), reproduced in an **isolated lab**, and fixed with tests. Disclosures follow coordinated timelines.
