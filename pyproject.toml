@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "redteam-lab"
 version = "0.1.0"
 description = "A safe red teaming lab CLI and detections (portfolio-friendly)."
-authors = [{name="Alex Curtis", email="info@qexa.com"}]
+authors = [{name="Alex Curtis"}]
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
